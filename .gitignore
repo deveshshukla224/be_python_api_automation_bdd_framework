@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#virtualenv
+automation_testing_env/
+
 # C extensions
 *.so
 

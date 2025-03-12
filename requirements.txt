@@ -1,0 +1,13 @@
+behave @ git+https://github.com/behave/behave@ac8b1a730bd6729f8c7648442789076ee0bd3d68
+certifi==2025.1.31
+charset-normalizer==3.4.1
+colorama==0.4.6
+cucumber-expressions==18.0.1
+cucumber-tag-expressions==6.1.2
+idna==3.10
+mysql-connector==2.2.9
+parse==1.20.2
+parse_type==0.6.4
+requests==2.32.3
+six==1.17.0
+urllib3==2.3.0
