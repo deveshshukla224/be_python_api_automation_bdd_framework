@@ -9,9 +9,10 @@ logging.basicConfig(level=logging.INFO)
 
 @given('the login credentails')
 def step_impl(context):
-    url = readfromglobalconf('API', 'url')
-    endpoint = APIResources.login
-    context.full_url = url + endpoint
+    # url = readfromglobalconf('API', 'url')
+    # endpoint = APIResources.login
+    # context.full_url = url + endpoint
+    #full url set by hook in environment.py context.full_url
     context.payload = loginPayload()
     print("login details are passed")
     
